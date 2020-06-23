@@ -1,0 +1,190 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: "Aveir Next"
+	background-color: #ede4ff;
+}
+
+li {
+	list-style: none;
+	color: white;
+}
+
+header {
+	background-color: #ede4ff;
+	height: 50px;
+	color: #b28358;
+	border-bottom: 4px solid #0000ff;
+	z-index: 10000px;
+}
+
+.header-left {
+  float: left;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+
+.header-left h1 {
+	text-shadow: 2px 2px 5px #ff0000;
+	color: #000000;
+}
+.header-list {
+  float: right;
+}
+.header-list li {
+  float: right;
+  padding: 10px 10px;
+  color: salmon;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.header-list li:hover {
+	background-color: lightskyblue;
+	color: #fff;
+	word-spacing: 3px;
+}
+
+.header-list li a {
+	color: #b28358;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.top-wrapper {
+	padding: 180px 0 100px 0;
+	color: #fff;
+	text-align: center;
+	text-shadow: 2px 2px 5px #9e009e;
+}
+
+.top-wrapper p {
+  opacity: 0.9;
+  margin-bottom: 3px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.call {
+  background-color: #000000;
+  font-weight: bold;
+  color: white;
+}
+
+.facebook {
+  background-color: #0000ff;
+  color: white;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+.twitter {
+  background-color: #00e4ff;
+  font-weight: bold;
+  color: white;
+  margin-left: 50px;
+}
+
+.youtube {
+  background-color: #fff;
+  font-weight: bold;
+  color: red;
+}
+
+.instagram {
+	background-color: #fff;
+	margin-left: 50px;
+}
+
+.btn-wrapper a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #485f6c;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 h3 {
+  font-weight: normal;
+  color: #000;
+}
+
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+
+.lesson p {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.lesson-icon a {
+	text-decoration: none;
+	color: salmon;
+}
+
+.lesson-icon a:hover {
+	background-color: lightskyblue;
+	color: #fff;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message-wrapper li { 
+  color:#000;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message h3 {
+	color:#000;
+}
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer {
+  padding-top: 30px;
+  background-color: #687a00;
+}
